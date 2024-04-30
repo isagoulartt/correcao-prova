@@ -16,15 +16,19 @@
 }
 
 .galeria img{
-  width: 50px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
+  border-radius: 30px;
 }
 
 .galeria{
-  padding: 50px;
-  flex-direction:column-reverse;
-  align-items: center;
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 30px  80px;
+ gap: 70px;
+
 }
 
 header img{
@@ -58,4 +62,3 @@ font-size: larger;
 font-family: 'Courier New', Courier, monospace;
 
 }
-
